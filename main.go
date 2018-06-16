@@ -24,7 +24,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-
 	robot := newRobot(token,
 		"ZenJingBot", "", Proxy())
 	robot.bot.Debug = debug
